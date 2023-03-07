@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;700&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+/*imagem*/
+
+.img{
+    width: 400px;
+    height: 500px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+/* Centralizando itens na tela */
+
+html{
+    width: 100vw;
+    height: 100vw;
+    font-size: 62.5%;
+    background-color: rgb(179,177,177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    display: flex;
+}
+
+/* Login */
+
+.Login{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.Login h2{
+    font-size: 3rem;
+    align-self: flex-start;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(29,28,28);
+    border-bottom: 2px solid rgb(48,48,48);
+}
+
+.Login label{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(29,28,28);
+    margin-bottom: 0.5rem;
+}
+.Login input{
+    margin-bottom: 4rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid rgb(29,28,28);
+    background-color: transparent;
+    outline: none;
+    transition: all 300ms ease;
+
+}
+.Login input:hover{
+    border-bottom: 1px solid #C1135844;
+}
+
+.Links{
+    display: flex;
+    justify-content: space-between;
+}
+.Links a{    
+    font-size: 1.3rem;
+    color: rgb(29,28,28);
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+}
+.Login button{
+    margin-bottom: 0.4rem;
+    height: 4rem;
+    width: 100%;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size: 1.4rem;
+    border-radius: 4px;
+
+}
+span{
+    margin-left: 1rem;
+}
+.botao{
+    background-color: rgba(0,0,175,0.5);
+    transition: all 500ms ease-in-out;
+}
+.botao:hover{
+    background-color: rgba(0,0,175,0.4);
+}
+.facebook{
+    background-color: #3b5998;
+    transition: all 500ms ease-in-out;
+}
+.facebook:hover{
+    background-color: #4d6fb9;
+}
+.instagram{
+    background: linear-gradient(45deg,#405de6, #5851db,#833ab4,#c13584, #c1306c, #fd1d1d);
+    transition: all 500ms ease-in-out;
+}
+.instagram:hover{
+    background: linear-gradient(47deg,#405de6,#833ab4,#c13584,#fd1d1d,#c1306c);
+    
+}
+
+
+
+
+
+
+
+
+
